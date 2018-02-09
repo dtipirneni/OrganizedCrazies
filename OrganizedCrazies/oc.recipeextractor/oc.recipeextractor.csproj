@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenScraping" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Projects\Schema.NET-master\Source\Schema.NET\Schema.NET.csproj" />
+    <ProjectReference Include="..\oc.models\oc.models.csproj" />
+  </ItemGroup>
+
+</Project>

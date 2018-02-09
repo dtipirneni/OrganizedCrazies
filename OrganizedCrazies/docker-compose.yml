@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  oc.api:
+    image: oc.api
+    build:
+      context: ./oc.api
+      dockerfile: Dockerfile
